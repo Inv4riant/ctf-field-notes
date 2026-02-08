@@ -129,6 +129,18 @@
 
 ---
 
+#### searchploit
+
+`SearchSploit ‐ Exploit Database Archive Search`
+
+```
+```
+
+>-m, --mirror
+>> Copies (mirrors) the selected exploit file to the current working directory.
+
+---
+
 #### ssh
 
 `ssh — OpenSSH remote login client`
@@ -142,18 +154,6 @@
 The default is ~/.ssh/id_rsa, ~/.ssh/id_ecdsa, ~/.ssh/id_ecdsa_sk, ~/.ssh/id_ed25519 and ~/.ssh/id_ed25519_sk.      
 Identity files may also be specified on a per-host basis in the configuration file. It is possible to have multiple -i options (and multiple identities specified in configuration files).      
 If no certificates have been explicitly specified by the CertificateFile directive, ssh will also try to load certificate information from the filename obtained by appending -cert.pub to identity filenames.
-
----
-
-#### searchploit
-
-`SearchSploit ‐ Exploit Database Archive Search`
-
-```
-```
-
->-m, --mirror
->> Copies (mirrors) the selected exploit file to the current working directory.
 
 ---
 
@@ -183,3 +183,4 @@ If no certificates have been explicitly specified by the CertificateFile directi
 >Syntax: wget [option]... [URL]...
 
 ---
+
