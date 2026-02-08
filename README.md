@@ -1,2 +1,3 @@
 # ctf-field-notes
-CTF base kit with the writeup skeleton, tool tracking, and structure I built to keep my challenges consistent.
+
+This repo is still a work in progress. At the moment I am working on the `/tools` directory and respective `README.MD` files and links.
