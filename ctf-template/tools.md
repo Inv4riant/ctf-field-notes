@@ -9,6 +9,8 @@
 
 ```
 
+`enum4linux [options] target`
+
 > -S
 >> Enumerate shared resources (shares) on the target.
 
@@ -20,6 +22,8 @@
 ```
 
 ```
+
+`gobuster mode [options]`
 
 > dir - the classic directory brute-forcing mode
 
@@ -47,6 +51,9 @@
 
 ```
 
+`hashcat [options] hashfile [dictionary|mask]`
+`hashcat -m hashtype -a attackmode [options] hashfile wordlist`
+
 > -m, --hash-type=NUM
 >> Hash-type ID (see hashcat --help for 350+ types like 0=MD5, 1000=NTLM)
 
@@ -61,6 +68,8 @@
 ```
 
 ```
+
+`hydra [options] target service`
 
 > -l LOGIN or -L FILE  
 >>login with LOGIN name, or load several logins from FILE
@@ -77,6 +86,9 @@
 
 ```
 
+`nc [options] [hostname] [port]`
+`nc -l [options] [port]`
+
 > -l    listen mode, for inbound connects
 
 > -v     verbose [use twice to be more verbose]
@@ -87,12 +99,37 @@
 
 ---
 
+#### netexec
+`A swiss army knife for pentesting networks`
+
+```
+
+```
+
+`netexec protocol target [-u user] [-p pass] [-H hash] [options]`
+
+>--shares
+>> Enumerate shares.
+
+> --kerberoasting 
+>> Extracts Kerberos service tickets for accounts with SPNs.
+
+> --no-bruteforce
+>> Disables password brute‑forcing.
+
+> --rid
+>> Enumerates domain users and groups by cycling through Relative Identifiers (RIDs).
+
+---
+
 #### nmap
 `nmap - Network exploration tool and security / port scanner`
 
 ```
 
 ```
+
+`nmap [options] targets`
 
 >-p (port_range)
 >> Port specification: Specifies which ports to scan (e.g., -p 80,443, -p 1-1024, -p- for all ports).
@@ -114,6 +151,8 @@
 ```
 
 ```
+
+`r2 [-Adnw] [-s addr] [-c cmd] [options] file`
 
 > aaa 
 >> preform deeper analysis, most common use
@@ -154,6 +193,8 @@
 
 ```
 
+`ssh [-p port] [-i identityfile] [**-L** forward] [user**@**]hostname [command_]`
+
 > -i identity_file
 >> Selects a file from which the identity (private key) for public key authentication is read. You can also specify a public key file to use the corresponding private key that is loaded in ssh-agent(1) when the private key file is not present locally.     
 The default is ~/.ssh/id_rsa, ~/.ssh/id_ecdsa, ~/.ssh/id_ecdsa_sk, ~/.ssh/id_ed25519 and ~/.ssh/id_ed25519_sk.      
@@ -178,6 +219,8 @@ If no certificates have been explicitly specified by the CertificateFile directi
 
 ```
 
+`steghide command [arguments]`
+
 >‐sf, ‐‐stegofile filename
 
 ---
@@ -189,6 +232,7 @@ If no certificates have been explicitly specified by the CertificateFile directi
 
 ```
 
->Syntax: wget [option]... [URL]...
+`wget [options] [url...]`
 
 ---
+
