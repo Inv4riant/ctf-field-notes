@@ -35,6 +35,16 @@ The objective of this room is
 ![media](media/17.png)
 ![media](media/18.png)
 ![media](media/19.png)
-
+![media](media/20.png)
+![media](media/21.png)
+![media](media/22.png)
+![media](media/23.png)
+![media](media/24.png)
+![media](media/25.png)
+![media](media/26.png)
+![media](media/27.png)
+![media](media/28.png)
+![media](media/29.png)
+![media](media/30.png)
 
 ---
