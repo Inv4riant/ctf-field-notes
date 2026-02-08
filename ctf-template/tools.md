@@ -1,11 +1,12 @@
 ## Tools Used
 
 ---
-#### enum4linux
 
+#### enum4linux
 `Enumerate information from Windows and Samba systems`
 
 ```
+
 ```
 
 > -S
@@ -15,9 +16,11 @@
 
 #### gobuster
 `gobuster - Directory/file & DNS busting tool written in Go`
+
 ```
 
 ```
+
 > dir - the classic directory brute-forcing mode
 
 >vhost - virtual host brute-forcing mode - not the same as DNS
@@ -44,7 +47,6 @@
 
 ```
 
-
 > -m, --hash-type=NUM
 >> Hash-type ID (see hashcat --help for 350+ types like 0=MD5, 1000=NTLM)
 
@@ -55,6 +57,7 @@
 
 #### hydra
 `hydra - a very fast network logon cracker which supports many different services`
+
 ```
 
 ```
@@ -68,11 +71,12 @@
 ---
 
 #### netcat
-
 `nc - TCP/IP swiss army knife`
+
 ```
 
 ```
+
 > -l    listen mode, for inbound connects
 
 > -v     verbose [use twice to be more verbose]
@@ -84,14 +88,16 @@
 ---
 
 #### nmap
-
 `nmap - Network exploration tool and security / port scanner`
+
 ```
 
 ```
 
 >-p (port_range)
 >> Port specification: Specifies which ports to scan (e.g., -p 80,443, -p 1-1024, -p- for all ports).
+
+> -Pn: Treat all hosts as online -- skip host discovery
 
 >-sC: equivalent to --script=default
 
@@ -130,10 +136,10 @@
 ---
 
 #### searchploit
-
 `SearchSploit ‐ Exploit Database Archive Search`
 
 ```
+
 ```
 
 >-m, --mirror
@@ -142,7 +148,6 @@
 ---
 
 #### ssh
-
 `ssh — OpenSSH remote login client`
 
 ```
@@ -159,6 +164,7 @@ If no certificates have been explicitly specified by the CertificateFile directi
 
 #### stegcracker
 `stegcracker -  steganography brute-force tool`
+
 ```
 
 ```
@@ -166,21 +172,23 @@ If no certificates have been explicitly specified by the CertificateFile directi
 ---
 
 #### steghide
-`steghide - a steganography program
-`
+`steghide - a steganography program`
+
 ```
 
 ```
+
 >‐sf, ‐‐stegofile filename
 
 ---
 
 #### wget
 `Wget - The non-interactive network downloader.`
+
 ```
 
 ```
+
 >Syntax: wget [option]... [URL]...
 
 ---
-
