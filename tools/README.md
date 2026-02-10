@@ -65,9 +65,9 @@
 +-+-+-+-+-+-+-+-+-+-+-+
 
 #### Ss [✯](https://github.com/Inv4riant/ctf-field-notes/tree/main/tools/Ss)
-[searchploit](https://github.com/Inv4riant/ctf-field-notes/blob/main/tools/Ss/searchploit.md)
-[ssh](https://github.com/Inv4riant/ctf-field-notes/blob/main/tools/Ss/ssh.md)
-[stegcracker](https://github.com/Inv4riant/ctf-field-notes/blob/main/tools/Ss/stegcracker.md)
+[searchploit](https://github.com/Inv4riant/ctf-field-notes/blob/main/tools/Ss/searchploit.md)    
+[ssh](https://github.com/Inv4riant/ctf-field-notes/blob/main/tools/Ss/ssh.md)    
+[stegcracker](https://github.com/Inv4riant/ctf-field-notes/blob/main/tools/Ss/stegcracker.md)    
 [steghide](https://github.com/Inv4riant/ctf-field-notes/blob/main/tools/Ss/steghide.md)    
 +-+-+-+-+-+-+-+-+-+-+-+
 
