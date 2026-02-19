@@ -71,7 +71,7 @@ impot os
 os.system("/bin/bash")
 ```
 
-## Bash With Bash
+### Bash With Bash
 
 ```bash
 #!/bin/bash
@@ -122,5 +122,6 @@ grep -Ri "password" / 2>/dev/null
 ```
 
 ---
+
 
 
