@@ -104,6 +104,12 @@ find / -perm -u=s -type f 2>/dev/null
 find / -writable -type d 2>/dev/null
 ```
 
+### Search for Capability‑Enabled Binaries
+
+```
+getcap -r / 2>/dev/null
+```
+
 ---
 
 
@@ -122,6 +128,7 @@ grep -Ri "password" / 2>/dev/null
 ```
 
 ---
+
 
 
 
